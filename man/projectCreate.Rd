@@ -2,7 +2,7 @@
 % Please edit documentation in R/projectFunctions.R
 \name{projectCreate}
 \alias{projectCreate}
-\title{Creating a .rproj}
+\title{projectCreate}
 \usage{
 projectCreate(name)
 }
@@ -13,7 +13,7 @@ projectCreate(name)
 an r.proj of name "name"
 }
 \description{
-Creating a .rproj
+projectCreate
 }
 \examples{
 projectCreate("My first project")

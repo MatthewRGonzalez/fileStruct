@@ -2,7 +2,7 @@
 % Please edit documentation in R/projectFunctions.R
 \name{createSubdirectories}
 \alias{createSubdirectories}
-\title{Creating subdirectories}
+\title{createSubdirectories}
 \usage{
 createSubdirectories(name)
 }
@@ -13,7 +13,7 @@ createSubdirectories(name)
 a directory structure based on https://julianreif.com/guide/
 }
 \description{
-Creating subdirectories
+createSubdirectories
 }
 \examples{
 createSubdirectories("My first project")

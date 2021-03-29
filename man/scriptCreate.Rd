@@ -2,7 +2,7 @@
 % Please edit documentation in R/projectFunctions.R
 \name{scriptCreate}
 \alias{scriptCreate}
-\title{Create a .R script for sourcing example}
+\title{scriptCreate}
 \usage{
 scriptCreate(name)
 }
@@ -13,7 +13,7 @@ scriptCreate(name)
 a simple .R script in analysis/scripts
 }
 \description{
-Create a .R script for sourcing example
+scriptCreate
 }
 \examples{
 scriptCreate("My first project")

@@ -1,5 +1,5 @@
 
-#' Creating a .rproj
+#' projectCreate
 #'
 #' @param name A character string
 #' @return an r.proj of name "name"
@@ -30,7 +30,7 @@ LaTeX: pdfLaTeX,", path = paste(name,".txt", sep = ""))
 
 
 
-#' Creating subdirectories
+#' createSubdirectories
 #'
 #' @param name A character string
 #' @return a directory structure based on https://julianreif.com/guide/
@@ -53,7 +53,7 @@ createSubdirectories<- function(name){
 }
 
 
-#' Create a .R script for sourcing example
+#' scriptCreate
 #'
 #' @param name A character string
 #' @return a simple .R script in analysis/scripts
@@ -70,6 +70,7 @@ scriptCreate <- function(name){
 
 
 
+#' fileMasterCreate
 #' Creating create a .R script for sourcing example
 #'
 #' @param name A character string
@@ -125,6 +126,7 @@ sys.source(paste(paste(getwd(),'/analysis/script1.R', sep = '')))
 
 }
 
+#' createFullProject
 #' THE MOST IMPORTANT FUNCTION
 #'
 #' @param name A character string
