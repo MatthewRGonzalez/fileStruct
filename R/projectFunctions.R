@@ -84,7 +84,7 @@ createSubdirectories<- function(name){
 #' @export
 
 scriptCreate <- function(name){
-  script_path <- paste(paste(getwd(),"/",name,"/analysis/script1.R", sep = ""))
+  script_path <- paste(paste(getwd(),"/",name,"/analysis/scripts/script1.R", sep = ""))
 
   readr::write_file("print(paste('Hello Project Creation!'))",
                     path = script_path )

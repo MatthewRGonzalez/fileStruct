@@ -1,0 +1,39 @@
+---
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# .Rmd master file
+
+## Setup/Titles:
+
+This first section of code initializes the Rmd document for knitting.
+
+- Default output is html_document
+- Author based on system user
+- Title is created by fileStructure::createFullProject()
+
+```{r dynamic titles, include = FALSE}
+ author_param <-  ' matthew ' 
+ date_param <- ' Mon Mar 29 15:31:40 2021 ' 
+ title_param<- " First_Proj " 
+```
+
+---
+title: `r title_param`
+author: `r author_param`
+date:  `r date_param`
+---
+
+## Idea
+This file can be used to source different modules throughout the project.
+
+Run the example below!
+
+```{r source 1}
+sys.source(paste(paste(getwd(),'/analysis/script1.R', sep = '')))
+```
+
