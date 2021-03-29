@@ -2,11 +2,10 @@
 
 A package for developing organized project directories.
 
-###install:
+### install:
 
 ```
 devtools::install_github("https://github.com/MatthewRGonzalez/fileStruct")
-
 ```
 To keep this simple, I'll attach some pictures of the process.
 ## Before
