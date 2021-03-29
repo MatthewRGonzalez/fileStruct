@@ -1,5 +1,27 @@
 
-#' projectCreate
+#' fileStruct: A package for developing reproducable project structures
+#'
+#' The fileStruct package provides one main function, with some additional "helper"
+#' functions for creating an organized workflows.
+#'
+#'
+#' @section The fileStruct() function:
+#' createFullProject() is the most important function here, and creates a file structure
+#' based on the following link: https://julianreif.com/guide/
+#'
+#' Simply set a directory and run the function with your desired project name to
+#' create a clean and efficient project structure.
+#'
+#'
+#'
+#' @docType package
+#' @name fileStruct
+NULL
+
+
+
+
+#' projectCreate:
 #'
 #' @param name A character string
 #' @return an r.proj of name "name"
@@ -30,7 +52,7 @@ LaTeX: pdfLaTeX,", path = paste(name,".txt", sep = ""))
 
 
 
-#' createSubdirectories
+#' createSubdirectories:
 #'
 #' @param name A character string
 #' @return a directory structure based on https://julianreif.com/guide/
@@ -53,7 +75,7 @@ createSubdirectories<- function(name){
 }
 
 
-#' scriptCreate
+#' scriptCreate:
 #'
 #' @param name A character string
 #' @return a simple .R script in analysis/scripts
@@ -70,8 +92,8 @@ scriptCreate <- function(name){
 
 
 
-#' fileMasterCreate
-#' Creating create a .R script for sourcing example
+#' fileMasterCreate:
+#' create a .R script for sourcing example
 #'
 #' @param name A character string
 #' @return a master .Rmd file for sourcing scripts
@@ -126,7 +148,7 @@ sys.source(paste(paste(getwd(),'/analysis/script1.R', sep = '')))
 
 }
 
-#' createFullProject
+#' createFullProject:
 #' THE MOST IMPORTANT FUNCTION
 #'
 #' @param name A character string

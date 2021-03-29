@@ -2,8 +2,8 @@
 % Please edit documentation in R/projectFunctions.R
 \name{fileMasterCreate}
 \alias{fileMasterCreate}
-\title{fileMasterCreate
-Creating create a .R script for sourcing example}
+\title{fileMasterCreate:
+create a .R script for sourcing example}
 \usage{
 fileMasterCreate(name)
 }
@@ -14,8 +14,8 @@ fileMasterCreate(name)
 a master .Rmd file for sourcing scripts
 }
 \description{
-fileMasterCreate
-Creating create a .R script for sourcing example
+fileMasterCreate:
+create a .R script for sourcing example
 }
 \examples{
 fileMasterCreate("My first project")

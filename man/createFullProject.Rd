@@ -2,7 +2,7 @@
 % Please edit documentation in R/projectFunctions.R
 \name{createFullProject}
 \alias{createFullProject}
-\title{createFullProject
+\title{createFullProject:
 THE MOST IMPORTANT FUNCTION}
 \usage{
 createFullProject(name)
@@ -14,7 +14,7 @@ createFullProject(name)
 An entire project directory structure
 }
 \description{
-createFullProject
+createFullProject:
 THE MOST IMPORTANT FUNCTION
 }
 \examples{
