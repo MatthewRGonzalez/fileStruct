@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Matthew Gonzalez
 Maintainer: Matthew Gonzalez <mattgonzalez96@gmail.com>
 Description: Create a directory structure geared towards developing reproducible 
-work
+  work
 License: None
 Encoding: UTF-8
 LazyData: true
