@@ -1,4 +1,4 @@
-Package: fileStructure
+Package: fileStruct
 Type: Package
 Title: Create organized directory structures for reproducible empirical research.
 Version: 0.1.0
