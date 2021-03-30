@@ -135,7 +135,7 @@ This file can be used to source different modules throughout the project.
 Run the example below!
 
 ```{r source 1}
-sys.source(sys.source('./analysis/scripts/script1.R')
+sys.source('./analysis/scripts/script1.R')
 ```
 
 "
