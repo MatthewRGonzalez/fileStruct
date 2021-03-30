@@ -113,7 +113,7 @@ knitr::opts_chunk$set(echo = TRUE)
 author_param <- ", "'",Sys.info()[["user"]],"'","\n",
 "date_param <-", "'",date(),"'", "\n","title_param<-", '"',name, '"',
 "\n```
-```
+
 ---
 title: `r title_param`
 author: `r author_param`
