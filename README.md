@@ -17,9 +17,8 @@ To keep this simple, I'll attach some pictures of the process.
 ## After 
 ![](https://github.com/MatthewRGonzalez/fileStruct/blob/main/images/Screen%20Shot%202021-03-29%20at%203.17.43%20PM.png?raw=true)
 
-And finally, a sample "master" file:
 
-![](https://github.com/MatthewRGonzalez/fileStruct/blob/main/images/Screen%20Shot%202021-03-29%20at%203.18.53%20PM.png?raw=true)
+
 
 
 
