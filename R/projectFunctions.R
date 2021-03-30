@@ -109,10 +109,18 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+author_param <- ", "'",Sys.info()[["user"]],"'","\n",
+"date_param <-", "'",date(),"'", "\n","title_param<-", '"',name, '"',
+"\n```
 ```
+---
+title: `r title_param`
+author: `r author_param`
+date:  `r date_param`
+---
 
 # .Rmd master file
-
 ## Setup/Titles:
 
 This first section of code initializes the Rmd document for knitting.
@@ -121,24 +129,13 @@ This first section of code initializes the Rmd document for knitting.
 - Author based on system user
 - Title is created by fileStructure::createFullProject()
 
-```{r dynamic titles, include = FALSE}
- author_param <- ", "'",Sys.info()[["user"]],"'","\n",
-    "date_param <-", "'",date(),"'", "\n","title_param<-", '"',name, '"',
-    "\n```
-
----
-title: `r title_param`
-author: `r author_param`
-date:  `r date_param`
----
-
 ## Idea
 This file can be used to source different modules throughout the project.
 
 Run the example below!
 
 ```{r source 1}
-sys.source(paste(paste(getwd(),'/analysis/scripts/script1.R', sep = '')))
+sys.source(sys.source('./analysis/scripts/script1.R')
 ```
 
 "
